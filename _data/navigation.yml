@@ -17,9 +17,9 @@ main:
 sidebar-menu:
   - title: "📂 카테고리"
     children:
-      - title: "Android (Java)"
+      - title: "💻 Android (Java)"
         url: /categories/android/
-      - title: "AI 콘텐츠"
+      - title: "✨ AI 콘텐츠"
         url: /categories/ai_contents/
-      - title: "AI 개발"
+      - title: "🧠 AI 개발"
         url: /categories/ai_development/
