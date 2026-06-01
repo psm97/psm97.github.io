@@ -114,11 +114,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  name             : "Park Sumin"
+  avatar           : "/assets/images/my_character.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Android SW Engineer / AI 개발자"
-  location         : "Somewhere"
-  email            :
+  location         : "Asia / Seoul"
+  email            : "clapm9797@gmail.com"
   # fediverse      : "@you@instance.social"  # used for fediverse:creator meta tag
   links:
     - label: "Email"
