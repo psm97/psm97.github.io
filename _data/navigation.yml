@@ -19,7 +19,8 @@ sidebar-menu:
     children:
       - title: "💻 Android (Java)"
         url: /categories/android/
-      - title: "✨ AI 콘텐츠"
-        url: /categories/ai_contents/
       - title: "🧠 AI 개발"
         url: /categories/ai_development/
+      - title: "✨ AI 콘텐츠"
+        url: /categories/ai_contents/
+      
