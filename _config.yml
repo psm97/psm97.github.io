@@ -118,12 +118,12 @@ author:
   avatar           : "/assets/images/my_character.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Android SW Engineer / AI 개발자"
   location         : "Asia / Seoul"
-  email            : "clapm9797@gmail.com"
+  email            : 
   # fediverse      : "@you@instance.social"  # used for fediverse:creator meta tag
   links:
     - label: "Email"
       icon: "fas fa-fw fa-square-envelope"
-      # url: "mailto:your.name@email.com"
+      url: "clapm9797@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -135,7 +135,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/psm97"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
