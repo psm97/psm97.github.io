@@ -15,9 +15,11 @@ main:
 
 # 왼쪽 사이드바 카테고리 메뉴 설정
 sidebar-menu:
-  - title: "Android (Java)"
-    url: /categories/android/
-  - title: "AI 콘텐츠"
-    url: /categories/ai_contents/
-  - title: "AI 개발"
-    url: /categories/ai_development/
+  - title: "📂 카테고리"
+  children:
+    - title: "Android (Java)"
+      url: /categories/android/
+    - title: "AI 콘텐츠"
+      url: /categories/ai_contents/
+    - title: "AI 개발"
+      url: /categories/ai_development/
