@@ -20,4 +20,4 @@ sidebar-menu:
   - title: "AI 콘텐츠"
     url: /categories/ai_contents/
   - title: "AI 개발"
-  url: /categories/ai_development/
+    url: /categories/ai_development/
