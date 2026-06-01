@@ -116,7 +116,7 @@ analytics:
 author:
   name             : "Park Sumin"
   avatar           : "/assets/images/my_character.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Android SW Engineer / AI 개발자 \n 경력: 안드로이드 개발 3년 5개월 (💼 피앤씨솔루션) \n 교육: \n - AI 콘텐츠 크리에이터 스쿨 (🏫 청년취업사관학교) \n - AI 개발자 과정 (🏫 AI 서울매력일자리)"
+  bio              : "Android SW Engineer / AI 개발자\n경력: 안드로이드 개발 3년 5개월 (💼 피앤씨솔루션)\n교육:\n- AI 콘텐츠 크리에이터 스쿨 (🏫 청년취업사관학교)\n- AI 개발자 과정 (🏫 AI 서울매력일자리)"
   location         : "Asia / Seoul"
   email            : 
   # fediverse      : "@you@instance.social"  # used for fediverse:creator meta tag
