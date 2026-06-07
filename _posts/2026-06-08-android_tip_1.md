@@ -139,4 +139,4 @@ public class MainActivity extends AppCompatActivity {
 ```
 
 ## 결과
-<img src="{{site.url}}/assets/images/exam/android_tip_1.gif" width="100">
+![]({{ site.url }}/assets/images/exam/android_tip_1.gif){: width="100"}
