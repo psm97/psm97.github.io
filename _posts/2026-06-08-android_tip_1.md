@@ -23,13 +23,12 @@ SDK: Android 9.0 (pie)
     android:orientation="vertical"
     tools:context=".MainActivity" >
 
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="203dp"
         android:layout_height="29dp"
         android:layout_margin="20dp"
-        android:hint="@string/change_txt"
+        android:hint="배경색"
         android:textAlignment="center"
         android:textSize="20sp" />
 
@@ -45,32 +44,26 @@ SDK: Android 9.0 (pie)
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:hint="@string/edit_txt1"
+            android:hint="버튼1"
             android:textSize="16sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-
-            android:layout_weight="100"
-
-            ></LinearLayout>
+            android:layout_weight="100"/>
 
         <Button
             android:id="@+id/btn2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:hint="@string/edit_txt2"
+            android:hint="버튼2"
             android:textSize="16sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="100"
-
-
-            ></LinearLayout>
+            android:layout_weight="100"/>
 
 
         <Button
@@ -78,7 +71,7 @@ SDK: Android 9.0 (pie)
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:hint="@string/edit_txt3"
+            android:hint="버튼3"
             android:textSize="16sp" />
 
 
@@ -97,17 +90,14 @@ SDK: Android 9.0 (pie)
 ```java
 package com.example.textchanger;
 
-import android.support.constraint.ConstraintLayout;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     final String TAG = "MainActivity";
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -122,28 +112,30 @@ public class MainActivity extends AppCompatActivity {
 
         btn_one.setOnClickListener(new Button.OnClickListener() {
             public void onClick(View view) {
-                Text.setText("첫번째");
-                background.setBackgroundColor(getResources().getColor(R.color.purple_200));
-                view.setBackgroundColor(view.getResources().getColor(R.color.purple_200));
+                Text.setText("purple");
+                background.setBackgroundColor(getResources().getColor(R.color.purple));
+                view.setBackgroundColor(view.getResources().getColor(R.color.purple));
             }
         });
         btn_two.setOnClickListener(new Button.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Text.setText("두번째");
-                background.setBackgroundColor(getResources().getColor(R.color.teal_200));
-                view.setBackgroundColor(view.getResources().getColor(R.color.teal_200));
+                Text.setText("teal");
+                background.setBackgroundColor(getResources().getColor(R.color.teal));
+                view.setBackgroundColor(view.getResources().getColor(R.color.teal));
             }
         });
         btn_three.setOnClickListener(new Button.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Text.setText("세번째");
+                Text.setText("yellow");
                 background.setBackgroundColor(getResources().getColor(R.color.yellow));
                 view.setBackgroundColor(view.getResources().getColor(R.color.yellow));
             }
         });
-
     }
 }
 ```
+
+## 결과
+![](assets/exam/android_tip_1.gif)
