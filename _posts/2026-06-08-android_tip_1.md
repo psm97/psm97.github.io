@@ -138,4 +138,4 @@ public class MainActivity extends AppCompatActivity {
 ```
 
 ## 결과
-![](assets/exam/android_tip_1.gif)
+![](../assets/exam/android_tip_1.gif)
