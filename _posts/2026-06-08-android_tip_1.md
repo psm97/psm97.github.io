@@ -6,9 +6,9 @@ categories:
 ---
 
 ### 개발환경
-tools: Android Studio
-SDK: Android 9.0 (pie)
-개발언어: Java
+tools: Android Studio  
+SDK: Android 9.0 (pie)  
+개발언어: Java  
 
 ### xml
 ```xml
