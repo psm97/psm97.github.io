@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "[Android(Java)] 예제1. 버튼을 누르면 버튼색과 배경색 변경하기"
 excerpt: "안드로이드 스튜디오 Java 실습 예제 1"
 categories:
