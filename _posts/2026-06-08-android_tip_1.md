@@ -23,6 +23,7 @@ SDK: Android 9.0 (pie)
     android:orientation="vertical"
     tools:context=".MainActivity" >
 
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="203dp"
@@ -45,12 +46,13 @@ SDK: Android 9.0 (pie)
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:hint="버튼1"
+            android:backgroundTint="@color/purple"
             android:textSize="16sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="100"/>
+            android:layout_weight="100" />
 
         <Button
             android:id="@+id/btn2"
@@ -58,12 +60,13 @@ SDK: Android 9.0 (pie)
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:hint="버튼2"
+            android:backgroundTint="@color/teal"
             android:textSize="16sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="100"/>
+            android:layout_weight="100" />
 
 
         <Button
@@ -72,11 +75,10 @@ SDK: Android 9.0 (pie)
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:hint="버튼3"
+            android:backgroundTint="@color/yellow"
             android:textSize="16sp" />
 
-
     </LinearLayout>
-
 
     <LinearLayout
         android:layout_width="match_parent"
