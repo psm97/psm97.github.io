@@ -5,12 +5,12 @@ categories:
   - 💻 Android (Java)
 ---
 
-### 개발환경
+#### 개발환경
 tools: Android Studio  
 SDK: Android 9.0 (pie)  
 개발언어: Java  
 
-### xml
+#### xml
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -88,7 +88,7 @@ SDK: Android 9.0 (pie)
 </LinearLayout>
 ```
 
-### java
+#### java
 ```java
 package com.example.textchanger;
 
@@ -139,5 +139,5 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 
-## 결과
+#### 결과
 ![](/assets/images/exam/android_tip_1.gif){: width="300"}
